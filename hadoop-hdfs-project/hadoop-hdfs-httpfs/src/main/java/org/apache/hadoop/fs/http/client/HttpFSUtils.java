@@ -39,7 +39,8 @@ import javax.ws.rs.core.MediaType;
  * Utility methods used by HttpFS classes.
  */
 @InterfaceAudience.Private
-public class HttpFSUtils {
+public final class HttpFSUtils {
+  private HttpFSUtils() {}
 
   public static final String SERVICE_NAME = "/webhdfs";
 
